@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <!--start of head-->
+    <head>
+        <title>login_form</title>
+        <!--start of style section-->
+        <style>
+            body
+            {
+              background-image: url("bluesky.jpg");
+              background-size: 100%;
+            }
+            button {
+              background-color: #4CAF50;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 45%;
+
+            }
+            form{
+              border: 1px ;
+              border-width: 3px;
+              background-color: lightgrey;
+              height: 250px;
+              width:350px;
+              padding: 20px 20px;
+              margin: auto;
+              text-align: center;
+              align: middle;
+              margin-top: 15%;
+            }
+
+        </style>
+        <!--end of style section-->
+    </head>
+    <!--end of head-->
+    <!--start of body-->
+    <body>
+        <!--start of form-->
+        <form>
+            <h3 align="center">Login Form</h3>
+
+            <label><div id="feedback1"></div>
+              User Name:
+
+                <input type="text" id="username" name="usename"  placeholder="Enter Username" required   />
+
+                <div id="feedback"></div>
+
+                </label>
+                  <br>
+
+                  <br>
+
+            <label>Password    :
+                <input type="password" name="password"  placeholder="Enter Password" required />
+                <br>
+            </label>
+            <br>
+            <button type="submit"   name="submit" align="center" >Login</button>
+            <!--reference that navigates to register page-->
+            <a href="register.html"   > New Member?</a>
+        </form>
+        <!--end of form-->
+        <script type="text/javascript" src="usernamelength.js"></script>
+        <script type="text/javascript" src="onkey.js"></script>
+    </body>
+    <!--end of body-->
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>register_page</title>
+        <!--start of style section-->
+        <style>
+        body
+        {
+          background-image: url("bluesky.jpg");
+          background-size: 100%;
+        }
+        form{
+          border: 1px ;
+          border-width: 3px;
+          background-color: lightgrey;
+          height: 505px;
+          width:480px;
+          align: middle;
+          margin-top: 6%;
+          margin-left: 28%;
+          }
+          td{
+
+              width: 200px;
+              height: 25px;
+            }
+            tr
+            {
+              rowspan: 3;
+              height:50px;
+              width:200px;
+            }
+
+            button {
+              background-color: #4CAF50;
+              color: white;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: none;
+              cursor: pointer;
+              width: 45%;
+            }
+          </style>
+          <!--end of style section-->
+    </head>
+    <!--start of body section-->
+    <body>
+      <!--start of form-->
+      <form>
+        <!--start of table-->
+        <table>
+          <!--first row starts-->
+          <tr>
+            <br>
+            <td align="center" colspan="2">
+            <h3 >Registration Form</h3>
+            </td>
+            </tr>
+            <!--first row ends-->
+            <!--second row starts-->
+            <tr >
+              <td align="right"  >
+                <label  >First Name:</label</td>
+                    <td ><input type="text" name="firstname" placeholder="Enter First Name" required></td>
+
+            </tr>
+            <!--second row ends-->
+            <!--third row starts-->
+            <tr>
+              <td align="right">
+                <label  >Last Name:</label</td>
+                <td><input type="text" name="lastname" placeholder="Enter Last Name" required></td>
+            </tr>
+            <!--third row ends-->
+            <!--fourth row starts-->
+            <tr>
+              <td align="right">
+                <label>User Name:</label</td>
+                <td><input type="text" name="username" placeholder="Enter Username" required></td>
+            </tr>
+            <!-- fourth row ends-->
+            <!--fifth row starts-->
+            <tr>
+                <td align="right">
+                <label  >Password:</label</td>
+                <td><input type="password" name="PASS" placeholder="Enter password" required></td>
+            </tr>
+            <!--fifth row ends-->
+            <!--sixth row starts-->
+            <tr>
+                <td align="right">
+                <label  >Email:</label</td>
+                <td><input type="email" name="email" placeholder="Enter email" required></td>
+            </tr>
+            <!--sixth row ends-->
+            <!--seventh row starts-->
+            <tr>
+               <td align="right">
+                <label  >Mobile:</label</td>
+                <td><input type="text" name="mobile" placeholder="mobile" required></td>
+            </tr>
+            <!--seventh row ends-->
+            <!--eighth row starts-->
+            <tr>
+              <td></td>
+              <td  align="left">
+            <label>City:</label>
+            <!--drop down menu for the field city-->
+            <select name="City" >
+              <option value="Kottayam">Kottayam</option>
+              <option value="Kollam">Kollam</option>
+              <option value="Ernakulam">Ernakulam</option>
+              <option value="Pathanamthitta">Pathanamthitta</option>
+              <option value="Alappuzha">Alappuzha</option>
+              <option value="Thrissur">Thrissur</option>
+            </select>
+            </td>
+            </tr>
+            <!--eighth row ends-->
+            <!--nineth row starts-->
+            <tr>
+              <td align="right">
+              <button type="submit"   name="submit"  >Register</button>
+              </td>
+              <td>
+              <!--back to home navigate to the login page-->
+              <a href="index.html" > Back to home</a>
+              </td>
+              </tr>
+              <!-- nineth row ends-->
+          </table>
+          <!--end of table-->
+      </form>
+      <!--end of form-->
+
+    </body>
+    <!--end of body-->
+</html>
